@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gracias por tu compra en SEIDO.">
+    <meta name="theme-color" content="#7b5a2a">
+    <meta property="og:title" content="SEIDO | Compra confirmada">
+    <meta property="og:description" content="Tu pedido en SEIDO fue confirmado correctamente.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+    <meta property="og:image" content="/Assets/Img/logo/logo-fondo-blanco-640.png">
+    <meta property="og:url" content="/gracias.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SEIDO | Compra confirmada">
+    <meta name="twitter:description" content="Revisa el resumen de tu pedido confirmado en SEIDO.">
+    <meta name="twitter:image" content="/Assets/Img/logo/logo-fondo-blanco-640.png">
+    <link rel="canonical" href="/gracias.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/Img/logo/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/Img/logo/favicon-16.png">
+    <link rel="apple-touch-icon" href="Assets/Img/logo/apple-touch-icon.png">
+    <title>SEIDO | Gracias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.min.css">
+</head>
+<body>
+    <div class="page-patterns" aria-hidden="true"></div>
+
+    <main class="thanks-main">
+        <section class="thanks-card">
+            <div class="brand-spotlight is-compact">
+                <picture>
+                    <source
+                        type="image/avif"
+                        srcset="Assets/Img/logo/logo-fondo-transparente-320.avif 320w, Assets/Img/logo/logo-fondo-transparente-640.avif 640w"
+                        sizes="(max-width: 760px) 44vw, 146px">
+                    <source
+                        type="image/webp"
+                        srcset="Assets/Img/logo/logo-fondo-transparente-320.webp 320w, Assets/Img/logo/logo-fondo-transparente-640.webp 640w"
+                        sizes="(max-width: 760px) 44vw, 146px">
+                    <img
+                        src="Assets/Img/logo/logo-fondo-transparente-320.png"
+                        alt="Isotipo transparente de SEIDO"
+                        width="320"
+                        height="288"
+                        loading="eager"
+                        decoding="async">
+                </picture>
+                <p>Pedido confirmado</p>
+            </div>
+            <p class="eyebrow">! Eso es todo! </p>
+            <h1>Gracias por tu compra</h1>
+            <p class="copy-muted" id="thanksLead">Procesamos tu pedido correctamente.</p>
+
+            <div class="summary-block">
+                <p><span>Referencia</span><strong id="thanksReference">-</strong></p>
+                <p><span>Nombre</span><strong id="thanksName">-</strong></p>
+                <p><span>Telefono</span><strong id="thanksPhone">-</strong></p>
+                <p><span>Barrio</span><strong id="thanksNeighborhood">-</strong></p>
+                <p><span>Direccion</span><strong id="thanksAddress">-</strong></p>
+                <p><span>Subtotal</span><strong id="thanksSubtotal">$0</strong></p>
+                <p><span>Envio</span><strong id="thanksShipping">$0</strong></p>
+                <p><span>Total</span><strong id="thanksTotal">$0</strong></p>
+                <p><span>Factura</span><strong id="thanksInvoice">-</strong></p>
+                <p><span>Detalle factura</span><strong id="thanksInvoiceMessage">-</strong></p>
+
+                <h3 class="section-mt-md">Productos</h3>
+                <ul class="items-list" id="thanksItems"></ul>
+            </div>
+
+            <a class="btn btn-primary section-mt-lg" href="seido.html">Inicio</a>
+        </section>
+    </main>
+
+    <script src="Js/ui-enhancements.min.js" defer></script>
+    <script src="Js/store.min.js" defer></script>
+    <script src="Js/gracias.min.js" defer></script>
+</body>
+</html>
+

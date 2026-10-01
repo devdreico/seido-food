@@ -1,0 +1,28 @@
+{
+  "name": "seido-cash-ordering-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SEIDO mobile ordering app with cash checkout and Formspree invoice integration",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "optimize:assets": "node scripts/optimize-assets.js",
+    "minify:static": "node scripts/minify-static.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "nodemon": "^3.1.9",
+    "sharp": "^0.34.5",
+    "terser": "^5.46.0"
+  }
+}
